@@ -1,7 +1,7 @@
 <?php
 namespace AiFaiz\Malaysia;
 
-class MyState{
+class MyStates{
 	
 	public $states;
 	
@@ -35,6 +35,6 @@ class MyState{
 	}
 	
 	public static function states(){
-		return $this->states;
+		return MyStates::statesList();
 	}
 }
