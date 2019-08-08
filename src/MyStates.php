@@ -37,4 +37,13 @@ class MyStates{
 	public static function states(){
 		return MyStates::statesList();
 	}
+	
+	public static function stateByCode($code){
+		$states = $this->states->where('code',$code)->first();
+		if(isset($states['name']) && !empty($states['name'])):
+			return $states['name'];
+		endif;
+		
+		return '-';
+	}
 }
