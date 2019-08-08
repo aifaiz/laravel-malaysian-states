@@ -1,5 +1,7 @@
 # Laravel collection of Malaysian state list
 
+This package is useful for people who would want to create `dropdown` input or anything that requires the Malaysian States list.
+
 ## Installing
 
 `$ composer require aifaiz/myrstates`
