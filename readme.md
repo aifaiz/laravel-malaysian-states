@@ -8,7 +8,7 @@
 
 you can use it in anywhere such as `controller`. declare the `namespace` like this before the `class`
 
-`use AiFaiz\Malaysia\MyStates`
+`use AiFaiz\Malaysia\MyStates;`
 
 accessing the states:
 
@@ -19,5 +19,5 @@ Collections of states will be returned and you can perform `collection` method o
 `$states->first()`
 
 
-refer to [Collection Methods] (https://laravel.com/docs/5.8/collections#available-methods) for more info on utilizing `collections`
+refer to [Collection Methods](https://laravel.com/docs/5.8/collections#available-methods) for more info on utilizing `collections`
 
