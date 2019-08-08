@@ -1,0 +1,32 @@
+{
+    "name": "aifaiz/myrstates",
+    "type": "library",
+    "description": "Laravel Library for Malaysian states list",
+    "keywords": ["malaysia", "states"],
+    "homepage":"https://hamizulfaiz.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamizulfaiz Sapwan",
+            "email": "me@hamizulfaiz.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AiFaiz\\Malaysia\\": "src/"
+        }
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"AiFaiz\\Malaysia\\MyStatesServiceProvider"
+			]
+		}
+	}
+}
