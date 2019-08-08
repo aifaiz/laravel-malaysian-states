@@ -2,7 +2,7 @@
 
 ## Installing
 
-> composer require aifaiz/myrstates
+`$ composer require aifaiz/myrstates`
 
 ## How to use
 
