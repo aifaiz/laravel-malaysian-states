@@ -21,3 +21,6 @@ Collections of states will be returned and you can perform `collection` method o
 
 refer to [Collection Methods](https://laravel.com/docs/5.8/collections#available-methods) for more info on utilizing `collections`
 
+## Sample Data
+
+![Collections Result](img/collection-sample.png)
