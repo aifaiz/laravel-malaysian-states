@@ -32,6 +32,19 @@ $state = MyStates::stateByCode('KUL')
 
 ````
 
+## Using Alias
+
+You can use it directly in laravel `blade template` like this:
+
+````
+<select>
+    @foreach(MalayStates::getStates() as $state)
+	<option value="{{$state['code']}}">{{$state['name']}}</option>
+	@endforeach
+</select>
+
+````
+
 ## Sample Data
 
 ![Collections Result](img/collection-sample.png)
