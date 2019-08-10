@@ -26,7 +26,10 @@
 		"laravel": {
 			"providers": [
 				"AiFaiz\\Malaysia\\MyStatesServiceProvider"
-			]
+			],
+            "aliases": {
+                "MalayStates": "AiFaiz\\Malaysia\\MyStates"
+            }
 		}
 	}
 }
