@@ -14,7 +14,7 @@ you can use it in anywhere such as `controller`. declare the `namespace` like th
 
 accessing the states:
 
-`$states = MyStates::states()`
+`$states = MyStates::getStates()`
 
 Collections of states will be returned and you can perform `collection` method on it. such as:
 
