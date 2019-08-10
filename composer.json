@@ -1,7 +1,7 @@
 {
     "name": "aifaiz/myrstates",
     "type": "library",
-    "description": "Laravel Library for Malaysian states list",
+    "description": "Laravel 5.* Library for Malaysian states list",
     "keywords": ["malaysia", "states"],
     "homepage":"https://hamizulfaiz.com",
     "license": "MIT",
